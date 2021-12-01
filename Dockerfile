@@ -4,3 +4,4 @@
  copy target/*.jar /usr/local/docker-java-demo.jar
 
  ENTRYPOINT ["java","-jar","/usr/local/docker-java-demo.jar"]
+# ENTRYPOINT ["ls","/usr/local"]
